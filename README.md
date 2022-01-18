@@ -1,23 +1,23 @@
-## Program for Fitting experimental IV curves by Single-Diode equivalent-Circuit Model
+## Program to calculate a transfer-matrix approach
 
-### Installing
-You only need to download the executable file `./bin/Debug/SolarCell_DiodeModel_Fitting.exe` within this repository and run it on your windows computer.
-The `.NET Framework 4.8` will be required to run it.
+### Online Version
+Available browser version <a href="http://pixel-95.weebly.com/transfer-matrix.html">here</a>.
 
-### Main Window
-This easy-to-use script reads experimentally measured current-voltage data by copy and paste and fits a single-diode equivalent-circuit model to this data via the implicit diode equation.
+### Calculations
+Several optical data can be calculated with this program.
 
-<!-- https://latex.codecogs.com/eqneditor/editor.php -->
-<!-- \color{DarkOrange}
-I(V) = -I_\text{ph} + I_0 \cdot \left( \exp\left( \frac{q_e \cdot (V - I(V) \cdot R_\text{s})}{n \cdot k_\text{B} \cdot T} \right) -1 \right) + \frac{V- I(V) \cdot R_\text{s}}{R_\text{sh}}-->
-
-The main window of the program is devided into three column. On the left, experimental data can be read from file or copy-pasted from clipboard.
-In the middle, fitting parameters can be automatically fitted or manually manipulated. Moreover, basic solar cell parameters as Voc, jsc, and FF are displayed.
-On the right side, the experimental data and the fit are plotted.<br><br>
-<img src="./dataOutput/depthDependentData.png" alt="depth dependent data"/>
-<img src="./dataOutput/reflected.png" alt="reflected data"/>
+#### Fraction of absorbed light in each layer
 <img src="./dataOutput/fractionOfLight.png" alt="fraction of light"/>
 
-### Option Window
-There are several optional preferences for the IV curve. First of all, decimal and column spearators can be set. Furthermore, the units of voltage and currents can be choosen. Finally, the correct temperature has to be set.<br><br>
-<img src="./screenshots/options.png" alt="screenshot of option window" width="220"/>
+#### AM1.5-weighted reflected power as a function of the angle of incidence
+<img src="./dataOutput/reflected.png" alt="reflected data"/>
+
+#### Poynting vector
+<img src="./dataOutput/depthDependentData.png" alt="depth dependent data"/>
+
+### References
+[1] S. J. Byrnes, Multilayer optical calculations, arXiv:1603.02720v4 [physics.comp-ph] (2019)<br>
+[2] C. C. Katsidis and D. I. Siapkas, General transfer-matrix method for optical multilayer systems with coherent, partially coherent, and incoherent interference, Appl. Opt. 41, 3978-3987 (2002)<br>
+[3] L. Taylor, Transfer-matrix Method Optical Calculator<br>
+[4] Z. H. Mohammed, The Fresnel Coefficient of Thin Film Multilayer Using Transfer Matrix Method TMM, IOP Conf. Ser.: Mater. Sci. Eng. 518, 032026 (2019)<br>
+[5] L. A. A. Pettersson et al, Modeling photocurrent action spectra of photovoltaic devices based on organic thin films, J. Appl. Phys. 86, 487 (1999)<br>
