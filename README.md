@@ -15,7 +15,7 @@ The main window of the program is devided into three column. On the left, experi
 In the middle, fitting parameters can be automatically fitted or manually manipulated. Moreover, basic solar cell parameters as Voc, jsc, and FF are displayed.
 On the right side, the experimental data and the fit are plotted.<br><br>
 <img src="./dataOutput/depthDependentData.png" alt="depth dependent data"/>
-<img src="./dataOutput/reflectedPlot.png" alt="reflected data"/>
+<img src="./dataOutput/reflected.png" alt="reflected data"/>
 <img src="./dataOutput/fractionOfLight.png" alt="fraction of light"/>
 
 ### Option Window
