@@ -13,7 +13,7 @@ Several optical data can be calculated with this program.
 <img src="./dataOutput/reflected.png" alt="reflected data"/>
 
 #### Poynting vector
-<img src="./dataOutput/depthDependentData.png" alt="depth dependent data"/>
+<img src="./dataOutput/depthDependentDataPlot.png" alt="depth dependent data"/>
 
 ### References
 [1] S. J. Byrnes, Multilayer optical calculations, arXiv:1603.02720v4 [physics.comp-ph] (2019)<br>
