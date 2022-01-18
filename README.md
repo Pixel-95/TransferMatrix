@@ -1,7 +1,7 @@
 ## Program to calculate a transfer-matrix approach
 
 ### Online Version
-Available browser version <a href="http://pixel-95.weebly.com/transfer-matrix.html">here</a>.
+Available browser version <a href="http://pixel-95.weebly.com/transfer-matrix.html" target="_blank">here</a>.
 
 ### Calculations
 Several optical data can be calculated with this program.
